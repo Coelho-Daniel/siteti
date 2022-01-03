@@ -4,18 +4,17 @@ body {
     font-family: Arial, Helvetica, sans-serif;
   }
 
-.Logo
-{
-    font-family: Verdana,Tahoma, sans-serif;
-    
+
+
+.topnav a.logo:hover{
+  background-color: #550b0b50;
+  color: white;
 }
-
-
 /*NAV*/
   .topnav {
     width: 100%;
     padding: 35px;
-    background: url(BANNER/navbanner.jpg);
+    background: url(../BANNER/navbanner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
@@ -80,33 +79,6 @@ body {
       text-align: left;
     }
   }
-  /*
-  @media screen and (max-width: 780px) {
-    .topnav a:not(:first-child) {display: none;}
-    .topnav a.icon {
-      display: block;
-      margin-left: 70px;
-    }
-  }
-  
-  @media screen and (max-width: 780px) {
-    .topnav.responsive {position: relative;}
-    .topnav.responsive .icon {
-      position: absolute;
-      top: 0;
-      
-      margin-left: 250px;
-  
-    }
-    .topnav.responsive a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
-  }
-*/
-  /*dropdown*/
-  
   
 .dropdown {
   float: left;
@@ -152,4 +124,78 @@ body {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+/*galeria*/
+.card_img{
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  margin: 25px;
+}
+
+.small_img{
+  height: 100%;
+  cursor: pointer;
+  transition: all linear 0.4s;
+}
+.small_img:hover{
+  filter: grayscale(100%);
+  transform: scale(1.1);
+}
+
+.row{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#modal_img{
+  width: 65vw;
+  transform: scale(0);
+  transition: all linear .3s;
+}
+
+.modal_active #modal_img{
+  transform: scale(1);
+}
+.modal{
+
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, .7);
+  position: fixed;
+  visibility: hidden;
+  z-index: 1;
+  opacity: 0;
+  transition: visibility 0.8s linear, opacity 0.5s linear;
+}
+
+.modal_content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+}
+
+#bt_close{
+  color:#fff;
+  background-color: #000;
+  position: absolute;
+  top:10px;
+  right: 10px;
+  padding: 5px 10px;
+  font-size: 25px;
+  border:solid 1px #fff;
+  transition: all ease-out .4s;
+  cursor: pointer;
+}
+#bt_close:hover{
+  background-color: #f00;
+}
+
+.modal_active{
+  visibility: visible;
+  opacity: 1;
+
 }

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="BANNER/valico.ico">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <nav class="topnav" id="myTopnav" >
+   <a href="index.html" class="logo" data-testid="riotbar-header-themeLogo-desktop" data-interaction-id="riotbar_app-switcher_theme-logo"><svg xmlns="http://www.w3.org/2000/svg" fill="none" height="25" viewBox="0 0 100 100" width="25"><path d="M99.25 48.66V10.28c0-.59-.75-.86-1.12-.39l-41.92 52.4a.627.627 0 00.49 1.02h30.29c.82 0 1.59-.37 2.1-1.01l9.57-11.96c.38-.48.59-1.07.59-1.68zM1.17 50.34L32.66 89.7c.51.64 1.28 1.01 2.1 1.01h30.29c.53 0 .82-.61.49-1.02L1.7 9.89c-.37-.46-1.12-.2-1.12.39v38.38c0 .61.21 1.2.59 1.68z" fill="#fff"></path></svg></a>
+     
+      
+      <a href="index.html" class="active" >Valorant</a>
+      <div class="dropdown">
+        <button class="dropbtn ">Informações do jogo
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="agentes.html">Agents</a>
+          <a href="mapas.html">Mapas</a>
+          <a href="arsenal.html">Armamento</a>
+        </div>
+      </div> 
+        <a href="informacoes_jogo.html" class=" active">Mecanica do jogo</a>
+        <a href="#news " class=" active">Social</a>
+        <a href="#contact "class="active">Contact</a>
+        <a href="#about"class="active">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+    </nav>
+
+    <div class="modal">
+        <div class="modal_content">
+            <img src="AGENTES/novos/brimstone.jpg" id="modal_img">
+        </div>
+        <span id="bt_close">&times;</span>
+    </div>
+    
+    
+        <div class="container">
+            <div class="row">
+                <div class="card_img">
+                    <img src="AGENTES/novos/brimstone.jpg" class="small_img">
+                </div>
+                <div class="card_img">
+                    <img src="AGENTES/novos/phoenix.jpg" class="small_img">
+                </div>
+                <div class="card_img">
+                    <img src="AGENTES/novos/sage.jpg" class="small_img">
+                </div>
+                <div class="card_img">
+                    <img src="AGENTES/novos/sova.jpg" class="small_img">
+                </div>
+            </div>
+            <div class="row">
+                    <div class="card_img">
+                        <img src="AGENTES/novos/viper.jpg" class="small_img">
+                    </div>
+                    <div class="card_img">
+                        <img src="AGENTES/novos/chypher.jpg" class="small_img">
+                    </div>
+                    <div class="card_img">
+                        <img src="AGENTES/novos/reyna.jpg" class="small_img">
+                    </div>
+                    <div class="card_img">
+                        <img src="AGENTES/novos/Killjoys.jpg" class="small_img">
+                    </div>
+                </div>
+            <div class="row">
+                  <div class="card_img">
+                      <img src="AGENTES/novos/breach.jpg" class="small_img">
+                  </div>
+                   <div class="card_img">
+                      <img src="AGENTES/novos/omen.jpg" class="small_img">
+                  </div>
+                  <div class="card_img">
+                      <img src="AGENTES/novos/jett.jpg" class="small_img">
+                  </div>
+                  <div class="card_img">
+                     <img src="AGENTES/novos/raze.jpg" class="small_img">
+                 </div>
+             </div>
+             <div class="row">
+                <div class="card_img">
+                    <img src="AGENTES/novos/skye.png" class="small_img">
+                </div>
+                <div class="card_img">
+                    <img src="AGENTES/novos/yoru.jpg" class="small_img">
+                </div>
+                <div class="card_img">
+                    <img src="AGENTES/novos/astra.jpg" class="small_img">
+                </div>
+                <div class="card_img">
+                    <img src="AGENTES/novos/KAYO.png" class="small_img">
+                </div>
+            </div>
+            <div class="row">
+                <div class="card_img">
+                    <img src="AGENTES/novos/chamber" class="small_img">
+                </div>
+                <!--<div class="card_img">
+                    <img src="AGENTES/yoru.jpg" class="small_img">
+                </div>
+                <div class="card_img">
+                    <img src="AGENTES/astra.jpg" class="small_img">
+                </div>
+                <div class="card_img">
+                    <img src="AGENTES/KAYO.png" class="small_img">
+                </div>-->
+            </div>
+            
+        </div>
+
+
+
+
+     <!--resposive-->
+      <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+     <!--Galeria-->
+     <script src="assets/galeria.js"></script>
+</body>
+</html>
