@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="BANNER/valico.ico">
     <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/carrosel.css">
     <title>Document</title>
 </head>
 <body>
@@ -31,14 +32,86 @@
           <i class="fa fa-bars"></i>
         </a>
     </nav>
-    <div class ="Info_val margem">
-       <H1>Valorant Mecanicas</H1>
-       <h2>DESAFIE SEUS LIMITES</h2>
-       <p>Misture o seu estilo e experiência em um cenário global e competitivo. Você terá 13 rodadas para atacar e defender com disparos certeiros e habilidades táticas. Com apenas uma vida por rodada, você deve pensar mais rápido que o oponente se quiser sobreviver. Encare inimigos nos modos Competitivo e Sem Ranque, além da Disputa da Spike e do Mata-Mata!</p> 
-    </div>
-    <div class ="Info_vid">
-      <iframe width="1864" height="861" src="https://www.youtube.com/embed/JxyAt2d4W4Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
+    <section class="margem">
+      <h1>01 FRACTURE</h1>
+      
+      <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 9</div>
+          <img src="MAPAS/01 FRACTURE/Fracture_1.jpeg" style="width:100%">
+          <div class="text">Screenshot 1</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 9</div>
+          <img src="MAPAS/01 FRACTURE/Fracture_2.jpg" style="width:100%">
+          <div class="text">Screenshot 2</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 9</div>
+          <img src="MAPAS/01 FRACTURE/Fracture_3.jpeg" style="width:100%">
+          <div class="text">Screenshot 3</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">4/ 9</div>
+          <img src="MAPAS/01 FRACTURE/Fracture_4.jpeg" style="width:100%">
+          <div class="text">Screenshot 4</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">5/ 9</div>
+          <img src="MAPAS/01 FRACTURE/Fracture_5.jpeg" style="width:100%">
+          <div class="text">Screenshot 5</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">6/ 9</div>
+          <img src="MAPAS/01 FRACTURE/Fracture_6.jpeg" style="width:100%">
+          <div class="text">Screenshot 6</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">7/ 9</div>
+          <img src="MAPAS/01 FRACTURE/Fracture_7.jpeg" style="width:100%">
+          <div class="text">Screenshot 7</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">8/ 9</div>
+          <img src="MAPAS/01 FRACTURE/Fracture_8.jpeg" style="width:100%">
+          <div class="text">Screenshot 8</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">9/ 9</div>
+          <img src="MAPAS/01 FRACTURE/Fracture_9.jpeg" style="width:100%">
+          <div class="text">Screenshot 9</div>
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+          <span class="dot" onclick="currentSlide(4)"></span> 
+          <span class="dot" onclick="currentSlide(5)"></span>
+          <span class="dot" onclick="currentSlide(6)"></span>
+          <span class="dot" onclick="currentSlide(7)"></span>
+          <span class="dot" onclick="currentSlide(8)"></span>
+          <span class="dot" onclick="currentSlide(9)"></span>
+        </div>
+    </section>
+    
+   
+
      <!--resposive-->
       <script>
         function myFunction() {
@@ -50,5 +123,8 @@
           }
         }
         </script>
+
+          <!--Carrosel-->
+      <script src="assets/carrosel.js"></script>
 </body>
 </html>
