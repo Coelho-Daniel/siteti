@@ -51,11 +51,11 @@ dotFracture = document.querySelectorAll(".dotFracture");
 // Esconder todos os slides
 activateAscent(0);
 activateSplit(0);
-activateHaven(0)
-activateBind(0)
-activateIcebox(0)
-activateBreeze(0)
-activateFracture(0)
+activateHaven(0);
+activateBind(0);
+activateIcebox(0);
+activateBreeze(0);
+activateFracture(0);
 
 // Adicionar ouvintes aos dots
 dotAscent.forEach(element => {
@@ -134,7 +134,6 @@ function activateSplit(index) {
     element.style.display = "none";
     return element;
   });
-
   // Mostra o slide com o index informado
   splitSlide[index].style.display = "block";
 
