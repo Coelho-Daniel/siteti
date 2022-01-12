@@ -6,7 +6,7 @@ img {vertical-align: middle;
 
 /* Slideshow container */
 .slideshow-container {
-  padding-top: 10vh;
+  padding-top: 5vh;
   max-width: 1000px;
   position: relative;
   margin: auto;
@@ -62,10 +62,13 @@ img {vertical-align: middle;
 
   color: #f2f2f2;
   font-size: 12px;
-  padding: 12vh 0px 0px 12px;
+  padding: 6vh 0px 0px 12px;
   position: absolute;
   top: 0;
 }
+/*.active, .txt:hover{
+  background-color: rgba(255, 0, 0, 0.418);
+}*/
 
 /* The dots/bullets/indicators */
 .dotSplit, .dotHaven, .dotBind, .dotIcebox, .dotBreeze, .dotAscent, .dotFracture {
@@ -80,7 +83,7 @@ img {vertical-align: middle;
 }
 
 .active, .dotSplit:hover, .dotHaven:hover, .dotBind:hover, .dotIcebox:hover, .dotBreeze:hover, .dotAscent:hover, .dotFracture:hover {
-  background-color: #717171;
+  background-color: #717171a6;
 }
 
 /* Fading animation */
@@ -104,4 +107,9 @@ img {vertical-align: middle;
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
+}
+
+h1{
+  padding-top: 10vh;
+  text-align: center;
 }
