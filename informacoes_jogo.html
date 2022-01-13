@@ -7,11 +7,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="BANNER/valico.ico">
     <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/carrosel.css">
+
     <title>Document</title>
 </head>
 <body>
 
     <nav class="topnav" id="myTopnav" >
+      <a href="index.html" class="logo" data-testid="riotbar-header-themeLogo-desktop" data-interaction-id="riotbar_app-switcher_theme-logo"><svg xmlns="http://www.w3.org/2000/svg" fill="none" height="25" viewBox="0 0 100 100" width="25"><path d="M99.25 48.66V10.28c0-.59-.75-.86-1.12-.39l-41.92 52.4a.627.627 0 00.49 1.02h30.29c.82 0 1.59-.37 2.1-1.01l9.57-11.96c.38-.48.59-1.07.59-1.68zM1.17 50.34L32.66 89.7c.51.64 1.28 1.01 2.1 1.01h30.29c.53 0 .82-.61.49-1.02L1.7 9.89c-.37-.46-1.12-.2-1.12.39v38.38c0 .61.21 1.2.59 1.68z" fill="#fff"></path></svg></a>
       <a href="index.html" class="Logo active" >Valorant</a>
       <div class="dropdown">
         <button class="dropbtn ">Informações do jogo
@@ -32,7 +35,13 @@
         </a>
     </nav>
   
-    <div class ="Info_val margem">
+    
+
+
+    <section class="margem">
+    
+    <div class ="Info_val">
+      <source src="https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt9037484fa766c7b8/61d90887dea73a236fc56d82/Disruption_VAL_MOBILE_768x490.mp4" type="video/mp4">
        <H1>Valorant Mecanicas</H1>
        <h2>DESAFIE SEUS LIMITES</h2>
        <p>Misture o seu estilo e experiência em um cenário global e competitivo. Você terá 13 rodadas para atacar e defender com disparos certeiros e habilidades táticas. Com apenas uma vida por rodada, você deve pensar mais rápido que o oponente se quiser sobreviver. Encare inimigos nos modos Competitivo e Sem Ranque, além da Disputa da Spike e do Mata-Mata!</p> 
@@ -40,7 +49,53 @@
     <div class ="Info_vid">
       <iframe width="1864" height="861" src="https://www.youtube.com/embed/JxyAt2d4W4Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
- 
+
+      <!--Carroussel-->
+      <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 4</div>
+          <img src="AGENTES/phoenix.jpg" style="width:100%">
+          <div class="text">Caption Text</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 4</div>
+          <img src="AGENTES/jett.jpg" style="width:100%">
+          <div class="text">Caption Two</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 4</div>
+          <img src="AGENTES/omen.jpg" style="width:100%">
+          <div class="text">Caption Three</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">4/ 4</div>
+          <img src="AGENTES/novos/reyna.jpg" style="width:100%">
+          <div class="text">Caption Three</div>
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+          <span class="dot" onclick="currentSlide(4)"></span> 
+        </div>
+  
+   
+  </section>
+
+
+
+     
      <!--resposive-->
       <script>
         function myFunction() {
@@ -52,5 +107,7 @@
           }
         }
         </script>
+        <!--Carrosel-->
+     <script src="assets/carrosel.js"></script>
 </body>
 </html>
