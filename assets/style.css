@@ -11,6 +11,7 @@ body {
 /*NAV*/
 .margem{
   padding-top: 118px; /*150px*/
+  position: relative;
 }
 .relative{
   position: relative;
@@ -157,13 +158,26 @@ body {
 .container .video{
     position: relative;
 }
-.logo_logo{
+/*Texto*/
+.Info_texto  {
+position: absolute;
+right: 50%;
+bottom: 20%;
+background-color: rgba(32, 25, 25, 0.212);
+}
+.texto_home{
+  color: #fff;
+}
+
+ .logo_logo{
       display: block;
     position: relative;
+    left: 10%;
     width: 85%;
     max-width: 32rem;
     filter: drop-shadow(0 0 .75em rgba(0,0,0,.3));
-}
+}  
+
 .video .content{
   top: 50%;
   position: absolute; 
@@ -181,6 +195,8 @@ body {
 
 .btn-grad {background-image: linear-gradient(to right, #000000 0%, #e74c3c  51%, #000000  100%)}
 .btn-grad {
+  font-family: 'Kanit', sans-serif;
+   text-decoration: none;
    margin: 10px;
    padding: 15px 45px;
    text-align: center;
