@@ -327,6 +327,48 @@ background-color: rgba(32, 25, 25, 0.212);
   opacity: 1;
 
 }
+/* dropdown na pagina */
+.dropbtn1 {
+  background-color: #7a0300;
+  color: white;
+  margin: 2vh 0 0 2vh;
+  padding: 16px 8.4VH 16px 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown1 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown1-content {
+  margin-left: 2vh;
+  display: none;
+  position: absolute;
+  background-color: #bdb3b3;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown1-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown1-content a:hover {background-color: #ca717194}
+
+.dropdown1:hover .dropdown1-content {
+  display: block;
+}
+
+.dropdown1:hover .dropbtn1 {
+  background-color: #7a0300c7;
+}
 /*galeria armas*/
 .card_img_armas{
   position: relative;
