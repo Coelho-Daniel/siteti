@@ -1,320 +1,385 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="icon" href="BANNER/valico.ico">
-    <link rel="stylesheet" href="assets/style.css">
-    <title>VALORANT</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" href="BANNER/valico.ico">
+  <link rel="stylesheet" href="assets/style.css">
+
+  <title>VALORANT</title>
 </head>
+
 <body>
 
-    <nav class="topnav" id="myTopnav" >
-   <a href="index.html" class="logo" data-testid="riotbar-header-themeLogo-desktop" data-interaction-id="riotbar_app-switcher_theme-logo"><svg xmlns="http://www.w3.org/2000/svg" fill="none" height="25" viewBox="0 0 100 100" width="25"><path d="M99.25 48.66V10.28c0-.59-.75-.86-1.12-.39l-41.92 52.4a.627.627 0 00.49 1.02h30.29c.82 0 1.59-.37 2.1-1.01l9.57-11.96c.38-.48.59-1.07.59-1.68zM1.17 50.34L32.66 89.7c.51.64 1.28 1.01 2.1 1.01h30.29c.53 0 .82-.61.49-1.02L1.7 9.89c-.37-.46-1.12-.2-1.12.39v38.38c0 .61.21 1.2.59 1.68z" fill="#fff"></path></svg></a>
-     
-      
-      <a href="index.html" class="active" >Valorant</a>
-      <div class="dropdown">
-        <button class="dropbtn ">Informações do jogo
-          <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content">
-          <a href="agentes.html">Agents</a>
-          <a href="mapas.html">Mapas</a>
-          <a href="arsenal.html">Armamento</a>
-        </div>
-      </div> 
-        <a href="informacoes_jogo.html" class=" active">Mecanica do jogo</a>
-        <a href="#news " class=" active">Social</a>
-        <a href="#contact "class="active">Contact</a>
-        <a href="#about"class="active">About</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
-    </nav>
+  <nav class="topnav" id="myTopnav">
+    <a href="index.html" class="logo" data-testid="riotbar-header-themeLogo-desktop"
+      data-interaction-id="riotbar_app-switcher_theme-logo"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+        height="25" viewBox="0 0 100 100" width="25">
+        <path
+          d="M99.25 48.66V10.28c0-.59-.75-.86-1.12-.39l-41.92 52.4a.627.627 0 00.49 1.02h30.29c.82 0 1.59-.37 2.1-1.01l9.57-11.96c.38-.48.59-1.07.59-1.68zM1.17 50.34L32.66 89.7c.51.64 1.28 1.01 2.1 1.01h30.29c.53 0 .82-.61.49-1.02L1.7 9.89c-.37-.46-1.12-.2-1.12.39v38.38c0 .61.21 1.2.59 1.68z"
+          fill="#fff"></path>
+      </svg></a>
 
-    
-        <div class="container margem">
-          
-          <div class="dropdown1" >
-            <button class="dropbtn1">TIPO // ARMA
-              <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown1-content">
-            <a href="#" class="1ar" data-categoria="all">TODAS</a>
-            <a href="#" class="1ar" data-categoria="ARMAS_LEVES">ARMAS LEVES</a>
-            <a href="#"class="1ar" data-categoria="SUBMETRALHADORAS">SUBMETRALHADORAS</a>
-            <a href="#"class="1ar" data-categoria="ESCOPETAS">ESCOPETAS</a>
-            <a href="#"class="1ar" data-categoria="FUZIS">FUZIS</a>
-            <a href="#"class="1ar" data-categoria="FUZIS_DE_PRECISÃO">FUZIS DE PRECISÃO</a>
-            <a href="#"class="1ar" data-categoria="METRALHADORAS">METRALHADORAS</a>
-            <a href="#" class="1ar" data-categoria="CONFRONTO">CONFRONTO</a>
-            </div>
+
+    <a href="index.html" class="active">Valorant</a>
+    <div class="dropdown">
+      <button class="dropbtn ">Informações do jogo
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="agentes.html">Agents</a>
+        <a href="mapas.html">Mapas</a>
+        <a href="arsenal.html">Armamento</a>
+      </div>
+    </div>
+    <a href="informacoes_jogo.html" class=" active">Mecanica do jogo</a>
+    <a href="#news " class=" active">Social</a>
+    <a href="#contact " class="active">Contact</a>
+    <a href="#about" class="active">About</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </nav>
+
+
+  <div class="container margem">
+
+    <div class="dropdown1">
+      <button class="dropbtn1">TIPO // ARMA
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown1-content">
+        <a href="#" class="1ar" data-categoria="all">TODAS</a>
+        <a href="#" class="1ar" data-categoria="ARMAS_LEVES">ARMAS LEVES</a>
+        <a href="#" class="1ar" data-categoria="SUBMETRALHADORAS">SUBMETRALHADORAS</a>
+        <a href="#" class="1ar" data-categoria="ESCOPETAS">ESCOPETAS</a>
+        <a href="#" class="1ar" data-categoria="FUZIS">FUZIS</a>
+        <a href="#" class="1ar" data-categoria="FUZIS_DE_PRECISÃO">FUZIS DE PRECISÃO</a>
+        <a href="#" class="1ar" data-categoria="METRALHADORAS">METRALHADORAS</a>
+        <a href="#" class="1ar" data-categoria="CONFRONTO">CONFRONTO</a>
+      </div>
+    </div>
+
+    <div class="row_armas">
+      <div class="card_img_armas ARMAS_LEVES">
+        <img src="ARSENAL/ARMAS LEVES/classic.png" class="small_img_armas">
+        <div class="middle_armas">
+          <div class="text_armas">
+            <h1 class="armas topo">CLASSIC.</h1>
+            <h2 class="armas">TIPO // ARMAS LEVES</h2>
+            <br>
+            <p class="armas"> Seu modo primário faz disparos precisos quando o jogador está parado.</p>
+            <p class="armas"> Além disso, ela vem equipada com um modo alternativo de rajadas para combates de curta
+              distância.</p>
           </div>
-
-            <div class="row_armas">
-                <div class="card_img_armas ARMAS_LEVES">
-                    <img src="ARSENAL/ARMAS LEVES/classic.png" class="small_img_armas">
-                    <div class="middle_armas">
-                        <div class="text_armas">
-                            <h1 class="armas topo">CLASSIC.</h1>
-                            <h2 class="armas">TIPO // ARMAS LEVES</h2>
-                            <br>
-                            <p class="armas"> Seu modo primário faz disparos precisos quando o jogador está parado.</p>
-                            <p class="armas"> Além disso, ela vem equipada com um modo alternativo de rajadas para combates de curta distância.</p>
-                      </div>
-                    </div>         
-                </div>
-                <div class="card_img_armas ARMAS_LEVES">
-                    <img src="ARSENAL/ARMAS LEVES/shorty.png" class="small_img_armas">
-                    <div class="middle_armas">
-                        <div class="text_armas">
-                            <h1 class="armas topo">SHORTY.</h1>
-                            <h2 class="armas">TIPO // ARMAS LEVES</h2>
-                            <br>
-                            <p class="armas"> Uma escopeta rápida de cano curto e altamente letal a curta distância, mas que dispara apenas dois tiros antes de precisar recarregar.</p>
-                            <p class="armas"> Combina bem com armas de longa distância.</p>
-
-                        </div>
-                      </div> 
-                </div>
-                <div class="card_img_armas ARMAS_LEVES">
-                    <img src="ARSENAL/ARMAS LEVES/frenzy.png" class="small_img_armas">
-                    <div class="middle_armas">
-                        <div class="text_armas">
-                           <h1 class="armas topo">FRENZY.</h1> 
-                           <h2 class="armas">TIPO // ARMAS LEVES</h2>
-                           <br>
-                           <p class="armas">Frenzy é uma metralhadora de mão leve e excelente para usar em movimento.</p>
-                           <p class="armas">Sua alta cadência de tiro pode ser difícil de controlar, então tente disparar rajadas curtas a distâncias intermediárias.</p>
- 
-                        </div>
-                      </div> 
-                </div>
-                <div class="card_img_armas ARMAS_LEVES">
-                    <img src="ARSENAL/ARMAS LEVES/ghost.png" class="small_img_armas">
-                    <div class="middle_armas">
-                        <div class="text_armas">
-                            <h1 class="armas topo">GHOST.</h1> 
-                           <h2 class="armas">TIPO // ARMAS LEVES</h2>
-                           <br>
-                           <p class="armas">Ghost é uma arma precisa que conta com um grande carregador, o que ajuda a compensar qualquer erro seu.</p>
-                           <p class="armas">Para acertar alvos distantes, é preciso manter a cadência de tiro controlada. E para acertar alvos de perto, pode sentar o dedo no gatilho.</p>
-                        </div>
-                      </div> 
-                </div>
-            
-                    <div class="card_img_armas ARMAS_LEVES">
-                        <img src="ARSENAL/ARMAS LEVES/sherif.png" class="small_img_armas">
-                        <div class="middle_armas">
-                            <div class="text_armas">
-                            <h1 class="armas topo">SHERIFF.</h1> 
-                           <h2 class="armas">TIPO // ARMAS LEVES</h2>
-                           <br>
-                           <p class="armas">Seus projéteis de alto impacto provocam bastante recuo, então é preciso ter pulso firme.</p>
-                           <p class="armas">Quando você domina esta arma, seus inimigos logo percebem que nunca tiveram chance.</p>
-                            </div>
-                          </div> 
-                    </div>
-                    <div class="card_img_armas SUBMETRALHADORAS">
-                        <img src="ARSENAL/SUBMETRALHADORAS/stinger.png" class="small_img_armas">
-                        <div class="middle_armas">
-                            <div class="text_armas">
-                            <h1 class="armas topo"> STINGER.</h1> 
-                           <h2>TIPO // SUBMETRALHADORAS</h2>
-                           <br>
-                           <p class="armas">Esta submetralhadora tem mais potência a médias e longas distâncias, à custa da cadência de tiro e mobilidade.</p>
-                           <p class="armas">Seu carregador de 20 projéteis é contrabalançado por sprays que provocam bastante recuo. Em compensação, esta arma dispara tiros letais a distâncias intermediárias com a ajuda da mira e de fogo controlado.
-                        </p>
-                            </div>
-                          </div> 
-                    </div>
-                    <div class="card_img_armas SUBMETRALHADORAS">
-                        <img src="ARSENAL/SUBMETRALHADORAS/spectre.png" class="small_img_armas">
-                        <div class="middle_armas">
-                            <div class="text_armas">
-                            <h1 class="armas topo"> SPECTRE.</h1> 
-                           <h2 class="armas">TIPO // SUBMETRALHADORAS</h2>
-                           <br>
-                           <p class="armas">Spectre é uma arma faz-tudo com ótimo equilíbrio entre dano, cadência de tiro e precisão – tudo isso a distâncias curtas e intermediárias.</p>
-                           <p class="armas">Ela assombra as esquinas de todo mapa e requer apenas uma mira estável para acabar com os inimigos a longa distância.</p>
-                            </div>
-                          </div>
-                    </div>
-                    <div class="card_img_armas ESCOPETAS">
-                        <img src="ARSENAL/ESCOPETAS/bucky.png" class="small_img_armas">
-                        <div class="middle_armas">
-                            <div class="text_armas">   
-                            <h1 class="armas topo">BUCKY.</h1> 
-                           <h2 class="armas">TIPO // ESCOPETAS</h2>
-                           <br>
-                           <p class="armas">Pesada, porém estável, Bucky tem um modo primário que serve para segurar avanços em esquinas acirradas ou ajudar na investida em áreas pequenas.</p>
-                            </div>
-                          </div>
-                    </div>
-                  <div class="card_img_armas ESCOPETAS">
-                      <img src="ARSENAL/ESCOPETAS/judge.png" class="small_img_armas">
-                      <div class="middle_armas">
-                        <div class="text_armas">                        
-                            <h1 class="armas topo">JUDGE.</h1> 
-                           <h2 class="armas">TIPO // ESCOPETAS</h2>
-                           <br>
-                           <p class="armas">Ela é estável com seus tiros normais, mas se torna volátil em disparos rápidos.</p>
-                           <p class="armas">Seu modo primário acaba com os alvos a curta distância, mas você precisará de uma mira estável para acertar qualquer coisa que esteja além do alcance do seu braço.</p>
-                        </div>
-                      </div>
-                  </div>
-                   <div class="card_img_armas FUZIS">
-                      <img src="ARSENAL/FUZIS/bulldog.png" class="small_img_armas">
-                      <div class="middle_armas ">
-                        <div class="text_armas">
-                            <h1 class="armas topo">BULLDOG.</h1> 
-                           <h2 class="armas">TIPO // FUZIS</h2>
-                           <br>
-                           <p class="armas">Este fuzil pode se tornar uma verdadeira máquina mortífera.</p>
-                           <p class="armas">Seu modo secundário permite que o atirador use a mira e descarregue rajadas curtas e precisas em qualquer um que se aproximar a distâncias intermediárias a longas.</p>
-                        </div>
-                      </div>
-                  </div>
-                  <div class="card_img_armas FUZIS">
-                      <img src="ARSENAL/FUZIS/guardian.png" class="small_img_armas">
-                      <div class="middle_armas">
-                        <div class="text_armas">                          
-                           <h1 class="armas topo">GUARDIAN.</h1> 
-                           <h2 class="armas">TIPO // FUZIS</h2>
-                           <br>
-                           <p class="armas">Por ser um fuzil estilo DMR, Guardian é mais pesado e oferece menos mobilidade do que outros fuzis, mas seus disparos são precisos e poderosos.</p>
-                           <p class="armas"> Saia caçando inimigos a distâncias longas e intermediárias.</p>
-                        </div>
-                      </div>
-                  </div>
-                  <div class="card_img_armas FUZIS">
-                     <img src="ARSENAL/FUZIS/phantom.png" class="small_img_armas">
-                     <div class="middle_armas">
-                        <div class="text_armas">                                                                                 
-                            <h1 class="armas topo">PHANTOM.</h1> 
-                           <h2 class="armas">TIPO // FUZIS</h2>
-                           <br>
-                           <p class="armas">Aproveite a automação desta arma para atingir qualquer um que tente se aproximar.</p>
-                           <p class="armas">Lance rajadas curtas e controladas para dispersar inimigos em qualquer lugar.</p>
-                           <p class="armas">Phantom tem um desempenho melhor quando o atirador está parado.</p>
-                        </div>
-                      </div>
-                 </div>
-                <div class="card_img_armas FUZIS">
-                    <img src="ARSENAL/FUZIS/vandal.png" class="small_img_armas">
-                    <div class="middle_armas">
-                        <div class="text_armas">                            
-                            <h1 class="armas topo">VANDAL.</h1> 
-                           <h2 class="armas">TIPO // FUZIS</h2>
-                           <br>
-                           <p class="armas">Em compensação, se disparar por muito tempo, sua estabilidade é prejudicada.</p>
-                           <p class="armas">Vandal concede bastante dano a longa distância e recompensa aqueles que focam em um único tiro certeiro na cabeça do alvo.</p>
-                        </div>
-                      </div>
-                </div>
-                <div class="card_img_armas FUZIS_DE_PRECISÃO">
-                    <img src="ARSENAL/FUZIS DE PRECISÃO/marshal.png" class="small_img_armas">
-                    <div class="middle_armas">
-                        <div class="text_armas">
-                            <h1 class="armas topo">MARSHAL.</h1> 
-                           <h2 class="armas">TIPO // FUZIS DE PRECISÃO</h2>
-                           <br>
-                           <p class="armas">Marshal é um fuzil de precisão ágil e de zoom único que consegue manter longe aqueles inimigos insistentes.</p>
-                           <p class="armas">Devido à cadência mais lenta, você precisará acertar seus disparos ou ficará vulnerável a ataques.</p>
-                        </div>
-                      </div>
-                </div>
-                <div class="card_img_armas FUZIS_DE_PRECISÃO">
-                    <img src="ARSENAL/FUZIS DE PRECISÃO/operator.png" class="small_img_armas">
-                    <div class="middle_armas">
-                        <div class="text_armas">
-                            <h1 class="armas topo">OPERATOR.</h1> 
-                           <h2 class="armas">TIPO // FUZIS DE PRECISÃO</h2>
-                           <br>
-                           <p class="armas">Operator é um fuzil de precisão intenso com zoom duplo altamente eficiente.</p>
-                           <p class="armas">Esta arma tem um desempenho péssimo em movimento, mas dispara projéteis absurdamente poderosos que podem devastar uma equipe inteira com um só tiro.</p>
-                        </div>
-                      </div>
-                </div>
-                <div class="card_img_armas METRALHADORAS">
-                    <img src="ARSENAL/METRALHADORAS/ares.png" class="small_img_armas">
-                    <div class="middle_armas">
-                        <div class="text_armas">
-                            <h1 class="armas topo">ARES.</h1> 
-                           <h2 class="armas">TIPO // METRALHADORAS</h2>
-                           <br>
-                           <p class="armas">Ares conta com um carregador enorme e se destaca em fogo de supressão ou causando muito dano a grupos concentrados de inimigos.</p>
-                        </div>
-                      </div>
-                </div>
-                <div class="card_img_armas METRALHADORAS">
-                    <img src="ARSENAL/METRALHADORAS/odin.png" class="small_img_armas">
-                    <div class="middle_armas">
-                        <div class="text_armas">
-                            <h1 class="armas topo">ODIN.</h1> 
-                           <h2 class="armas">TIPO // METRALHADORAS</h2>
-                           <br>
-                           <p class="armas">Odin conta com disparos que causam bastante dano e anulam ataques com uma estabilidade surpreendente.</p>
-                           <p class="armas">Use sprays contra inimigos a curta distância e troque para o modo secundário para se tornar uma torreta ambulante.</p>
-                        </div>
-                      </div>
-                </div>
-                <div class="card_img_armas CONFRONTO">
-                    <img src="ARSENAL/CONFRONTO/tactical-knife.png" class="small_img_armas">
-                    <div class="middle_armas">
-                            <div class="text_armas">
-                                <h1 class="armas topo">FACA TÁTICA.</h1> 
-                           <h2 class="armas">TIPO // CONFRONTO</h2>
-                           <br>
-                           <p class="armas">Quando você ficar sem balas ou estiver em dúvida sobre o que fazer, dê uma facada no adversário. </p>
-                           <p class="armas">Com esta faca, você poderá correr mais rápido, destruir objetos mais depressa e acertar seus inimigos de uma vez só bem nas costas com o modo secundário.</p>
-                            </div>
-                          </div>
-                </div>
-                
-            </div>
-            
         </div>
+      </div>
+      <div class="card_img_armas ARMAS_LEVES">
+        <img src="ARSENAL/ARMAS LEVES/shorty.png" class="small_img_armas">
+        <div class="middle_armas">
+          <div class="text_armas">
+            <h1 class="armas topo">SHORTY.</h1>
+            <h2 class="armas">TIPO // ARMAS LEVES</h2>
+            <br>
+            <p class="armas"> Uma escopeta rápida de cano curto e altamente letal a curta distância, mas que dispara
+              apenas dois tiros antes de precisar recarregar.</p>
+            <p class="armas"> Combina bem com armas de longa distância.</p>
+
+          </div>
+        </div>
+      </div>
+      <div class="card_img_armas ARMAS_LEVES">
+        <img src="ARSENAL/ARMAS LEVES/frenzy.png" class="small_img_armas">
+        <div class="middle_armas">
+          <div class="text_armas">
+            <h1 class="armas topo">FRENZY.</h1>
+            <h2 class="armas">TIPO // ARMAS LEVES</h2>
+            <br>
+            <p class="armas">Frenzy é uma metralhadora de mão leve e excelente para usar em movimento.</p>
+            <p class="armas">Sua alta cadência de tiro pode ser difícil de controlar, então tente disparar rajadas
+              curtas a distâncias intermediárias.</p>
+
+          </div>
+        </div>
+      </div>
+      <div class="card_img_armas ARMAS_LEVES">
+        <img src="ARSENAL/ARMAS LEVES/ghost.png" class="small_img_armas">
+        <div class="middle_armas">
+          <div class="text_armas">
+            <h1 class="armas topo">GHOST.</h1>
+            <h2 class="armas">TIPO // ARMAS LEVES</h2>
+            <br>
+            <p class="armas">Ghost é uma arma precisa que conta com um grande carregador, o que ajuda a compensar
+              qualquer erro seu.</p>
+            <p class="armas">Para acertar alvos distantes, é preciso manter a cadência de tiro controlada. E para
+              acertar alvos de perto, pode sentar o dedo no gatilho.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card_img_armas ARMAS_LEVES">
+        <img src="ARSENAL/ARMAS LEVES/sherif.png" class="small_img_armas">
+        <div class="middle_armas">
+          <div class="text_armas">
+            <h1 class="armas topo">SHERIFF.</h1>
+            <h2 class="armas">TIPO // ARMAS LEVES</h2>
+            <br>
+            <p class="armas">Seus projéteis de alto impacto provocam bastante recuo, então é preciso ter pulso firme.
+            </p>
+            <p class="armas">Quando você domina esta arma, seus inimigos logo percebem que nunca tiveram chance.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card_img_armas SUBMETRALHADORAS">
+        <img src="ARSENAL/SUBMETRALHADORAS/stinger.png" class="small_img_armas">
+        <div class="middle_armas">
+          <div class="text_armas">
+            <h1 class="armas topo"> STINGER.</h1>
+            <h2>TIPO // SUBMETRALHADORAS</h2>
+            <br>
+            <p class="armas">Esta submetralhadora tem mais potência a médias e longas distâncias, à custa da cadência de
+              tiro e mobilidade.</p>
+            <p class="armas">Seu carregador de 20 projéteis é contrabalançado por sprays que provocam bastante recuo. Em
+              compensação, esta arma dispara tiros letais a distâncias intermediárias com a ajuda da mira e de fogo
+              controlado.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="card_img_armas SUBMETRALHADORAS">
+        <img src="ARSENAL/SUBMETRALHADORAS/spectre.png" class="small_img_armas">
+        <div class="middle_armas">
+          <div class="text_armas">
+            <h1 class="armas topo"> SPECTRE.</h1>
+            <h2 class="armas">TIPO // SUBMETRALHADORAS</h2>
+            <br>
+            <p class="armas">Spectre é uma arma faz-tudo com ótimo equilíbrio entre dano, cadência de tiro e precisão –
+              tudo isso a distâncias curtas e intermediárias.</p>
+            <p class="armas">Ela assombra as esquinas de todo mapa e requer apenas uma mira estável para acabar com os
+              inimigos a longa distância.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card_img_armas ESCOPETAS">
+        <img src="ARSENAL/ESCOPETAS/bucky.png" class="small_img_armas">
+        <div class="middle_armas">
+          <div class="text_armas">
+            <h1 class="armas topo">BUCKY.</h1>
+            <h2 class="armas">TIPO // ESCOPETAS</h2>
+            <br>
+            <p class="armas">Pesada, porém estável, Bucky tem um modo primário que serve para segurar avanços em
+              esquinas acirradas ou ajudar na investida em áreas pequenas.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card_img_armas ESCOPETAS">
+        <img src="ARSENAL/ESCOPETAS/judge.png" class="small_img_armas">
+        <div class="middle_armas">
+          <div class="text_armas">
+            <h1 class="armas topo">JUDGE.</h1>
+            <h2 class="armas">TIPO // ESCOPETAS</h2>
+            <br>
+            <p class="armas">Ela é estável com seus tiros normais, mas se torna volátil em disparos rápidos.</p>
+            <p class="armas">Seu modo primário acaba com os alvos a curta distância, mas você precisará de uma mira
+              estável para acertar qualquer coisa que esteja além do alcance do seu braço.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card_img_armas FUZIS">
+        <img src="ARSENAL/FUZIS/bulldog.png" class="small_img_armas">
+        <div class="middle_armas ">
+          <div class="text_armas">
+            <h1 class="armas topo">BULLDOG.</h1>
+            <h2 class="armas">TIPO // FUZIS</h2>
+            <br>
+            <p class="armas">Este fuzil pode se tornar uma verdadeira máquina mortífera.</p>
+            <p class="armas">Seu modo secundário permite que o atirador use a mira e descarregue rajadas curtas e
+              precisas em qualquer um que se aproximar a distâncias intermediárias a longas.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card_img_armas FUZIS">
+        <img src="ARSENAL/FUZIS/guardian.png" class="small_img_armas">
+        <div class="middle_armas">
+          <div class="text_armas">
+            <h1 class="armas topo">GUARDIAN.</h1>
+            <h2 class="armas">TIPO // FUZIS</h2>
+            <br>
+            <p class="armas">Por ser um fuzil estilo DMR, Guardian é mais pesado e oferece menos mobilidade do que
+              outros fuzis, mas seus disparos são precisos e poderosos.</p>
+            <p class="armas"> Saia caçando inimigos a distâncias longas e intermediárias.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card_img_armas FUZIS">
+        <img src="ARSENAL/FUZIS/phantom.png" class="small_img_armas">
+        <div class="middle_armas">
+          <div class="text_armas">
+            <h1 class="armas topo">PHANTOM.</h1>
+            <h2 class="armas">TIPO // FUZIS</h2>
+            <br>
+            <p class="armas">Aproveite a automação desta arma para atingir qualquer um que tente se aproximar.</p>
+            <p class="armas">Lance rajadas curtas e controladas para dispersar inimigos em qualquer lugar.</p>
+            <p class="armas">Phantom tem um desempenho melhor quando o atirador está parado.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card_img_armas FUZIS">
+        <img src="ARSENAL/FUZIS/vandal.png" class="small_img_armas">
+        <div class="middle_armas">
+          <div class="text_armas">
+            <h1 class="armas topo">VANDAL.</h1>
+            <h2 class="armas">TIPO // FUZIS</h2>
+            <br>
+            <p class="armas">Em compensação, se disparar por muito tempo, sua estabilidade é prejudicada.</p>
+            <p class="armas">Vandal concede bastante dano a longa distância e recompensa aqueles que focam em um único
+              tiro certeiro na cabeça do alvo.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card_img_armas FUZIS_DE_PRECISÃO">
+        <img src="ARSENAL/FUZIS DE PRECISÃO/marshal.png" class="small_img_armas">
+        <div class="middle_armas">
+          <div class="text_armas">
+            <h1 class="armas topo">MARSHAL.</h1>
+            <h2 class="armas">TIPO // FUZIS DE PRECISÃO</h2>
+            <br>
+            <p class="armas">Marshal é um fuzil de precisão ágil e de zoom único que consegue manter longe aqueles
+              inimigos insistentes.</p>
+            <p class="armas">Devido à cadência mais lenta, você precisará acertar seus disparos ou ficará vulnerável a
+              ataques.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card_img_armas FUZIS_DE_PRECISÃO">
+        <img src="ARSENAL/FUZIS DE PRECISÃO/operator.png" class="small_img_armas">
+        <div class="middle_armas">
+          <div class="text_armas">
+            <h1 class="armas topo">OPERATOR.</h1>
+            <h2 class="armas">TIPO // FUZIS DE PRECISÃO</h2>
+            <br>
+            <p class="armas">Operator é um fuzil de precisão intenso com zoom duplo altamente eficiente.</p>
+            <p class="armas">Esta arma tem um desempenho péssimo em movimento, mas dispara projéteis absurdamente
+              poderosos que podem devastar uma equipe inteira com um só tiro.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card_img_armas METRALHADORAS">
+        <img src="ARSENAL/METRALHADORAS/ares.png" class="small_img_armas">
+        <div class="middle_armas">
+          <div class="text_armas">
+            <h1 class="armas topo">ARES.</h1>
+            <h2 class="armas">TIPO // METRALHADORAS</h2>
+            <br>
+            <p class="armas">Ares conta com um carregador enorme e se destaca em fogo de supressão ou causando muito
+              dano a grupos concentrados de inimigos.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card_img_armas METRALHADORAS">
+        <img src="ARSENAL/METRALHADORAS/odin.png" class="small_img_armas">
+        <div class="middle_armas">
+          <div class="text_armas">
+            <h1 class="armas topo">ODIN.</h1>
+            <h2 class="armas">TIPO // METRALHADORAS</h2>
+            <br>
+            <p class="armas">Odin conta com disparos que causam bastante dano e anulam ataques com uma estabilidade
+              surpreendente.</p>
+            <p class="armas">Use sprays contra inimigos a curta distância e troque para o modo secundário para se tornar
+              uma torreta ambulante.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card_img_armas CONFRONTO">
+        <img src="ARSENAL/CONFRONTO/tactical-knife.png" class="small_img_armas">
+        <div class="middle_armas">
+          <div class="text_armas">
+            <h1 class="armas topo">FACA TÁTICA.</h1>
+            <h2 class="armas">TIPO // CONFRONTO</h2>
+            <br>
+            <p class="armas">Quando você ficar sem balas ou estiver em dúvida sobre o que fazer, dê uma facada no
+              adversário. </p>
+            <p class="armas">Com esta faca, você poderá correr mais rápido, destruir objetos mais depressa e acertar
+              seus inimigos de uma vez só bem nas costas com o modo secundário.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
 
 
 
 
-     <!--resposive-->
-      <script>
-        function myFunction() {
-          var x = document.getElementById("myTopnav");
-          if (x.className === "topnav") {
-            x.className += " responsive";
-          } else {
-            x.className = "topnav";
-          }
-        }
-        </script>
-     
-     <!--Galeria-->
-     <script src="assets/galeria.js"></script>
-    
-     <!-- dropdown 
-    https://pt.stackoverflow.com/questions/240659/filtro-de-categoria-javascript-->
-     <script>
-$('.1ar').on('click', function(){
-    var cat = $(this).attr('data-categoria')
-    if(cat == 'all'){
-        $('.row_armas div').show()
-    }else{
-        $('.row_armas div').each(function(){
-            if(!$(this).hasClass(cat)){
-                $(this).hide()
-            }else{
-                $(this).show()
-            }
-        })
+  <!--resposive-->
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
     }
-})
-    </script>
-    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+  </script>
+
+  <!--Galeria-->
+  <!-- <script src="assets/galeria.js"></script> -->
+
+  <!-- dropdown 
+    https://pt.stackoverflow.com/questions/240659/filtro-de-categoria-javascript-->
+  <!-- <script src="https://code.jquery.com/jquery-3.1.0.js"></script> -->
+  <!-- <script>
+    $('.1ar').on('click', function () {
+      var cat = $(this).attr('data-categoria')
+      if (cat == 'all') {
+
+        /*  $('.row_armas div').show() */
+      } else {
+        $('.row_armas div').each(function () {
+          if (!$(this).hasClass(cat)) {
+                        /* $(this).hide() */console.log(this)
+          } else {
+            /*$(this).show()  */
+          }
+        })
+      }
+    })
+  </script> -->
+  <script>
+    // Filtrar as opçoes
+    optionBtn = document.getElementsByClassName("1ar");
+
+    // adicionar escuta
+    for (let item of optionBtn) {
+      const cards = document.getElementsByClassName("card_img_armas");
+
+      item.addEventListener('click', (e) => {
+        var category = e.target.dataset["categoria"];
+        switch (category) {
+          case 'all':
+            for (let card of cards) {
+              card.style.display = "";
+            }
+            break;
+          default:
+            for (let card of cards) {
+              card.style.display = "none";
+
+              if(card.classList[1] == category) {
+                card.style.display = "";
+              }
+            }
+            break;
+        }
+      });
+    }
+  </script>
+
 </body>
+
 </html>
