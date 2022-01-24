@@ -1,9 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Poppins:wght@500&display=swap');
+
 body {
-  font-family: Verdana, sans-serif;
+  font-family: 'Mochiy Pop P One', sans-serif;
+  /* font-family: 'Mochiy Pop P One', sans-serif;
+font-family: 'Poppins', sans-serif; */
   margin:0;
   padding: 0;
   }
+.pop{
+  font-family: 'Mochiy Pop P One', sans-serif;
+font-family: 'Poppins', sans-serif;
 
+}
 .topnav a.logo:hover{
   background-color: #550b0b50;
   color: white;
@@ -68,7 +78,7 @@ body {
         width: 40vh;
         background-color: black;
       }
-   
+      
   }
   
  
@@ -106,6 +116,7 @@ body {
       margin: 10vh auto 10vh auto;
       border-radius: 1%;
     }
+
   }
 
   @media screen and (max-device-width: 988px) and (orientation: landscape) {
@@ -354,15 +365,22 @@ background-color: rgba(32, 25, 25, 0.212);
   background-color: #7a0300;
   color: white;
   margin: 2vh 0 0 2vh;
-  padding: 16px 8.4VH 16px 16px;
+  padding: 12px 35.8px;
   font-size: 16px;
   border: none;
   cursor: pointer;
-}
+  
 
+}
+.fa{
+  padding-left: 20px;
+  padding-right: 20px;
+  
+}
 .dropdown1 {
   position: relative;
   display: inline-block;
+  
 }
 
 .dropdown1-content {
@@ -377,7 +395,7 @@ background-color: rgba(32, 25, 25, 0.212);
 
 .dropdown1-content a {
   color: black;
-  padding: 12px 16px;
+  padding: 12px 28.67px;
   text-decoration: none;
   display: block;
 }
@@ -421,7 +439,9 @@ background-color: rgba(32, 25, 25, 0.212);
   text-align: center;
   background-color: #1a161685;
   color: white;
-  font-family: cursive;
+  /* font-family: 'Mochiy Pop P One', sans-serif; */
+  font-family: 'Mochiy Pop P One', sans-serif;
+font-family: 'Poppins', sans-serif;
   font-size: 14px;
   width: 100%;
   height: 100%;
@@ -458,7 +478,7 @@ background-color: rgba(32, 25, 25, 0.212);
 /* Mecanicas valorant */
 .infoh1,.infoh2,.infop{
  text-align: center;
- font-family:'Times New Roman', Times, serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif, 'Times New Roman', Times, serif;
+ 
 }
 .infop{
   text-align: justify;
