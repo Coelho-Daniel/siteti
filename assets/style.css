@@ -79,7 +79,7 @@ font-family: 'Poppins', sans-serif;
       }
       
   }
-  
+
  
   @media screen and (max-width:988px ) {
     .topnav a:not(:first-child), .dropdown .dropbtn {
@@ -114,6 +114,12 @@ font-family: 'Poppins', sans-serif;
       height: auto;
       margin: 10vh auto 10vh auto;
       border-radius: 1%;
+    }
+    .logo1{
+      width:200px;
+       height: 266px;;
+       display: block;
+       margin: auto;
     }
 
   }
@@ -561,7 +567,7 @@ input[type=text], select, textarea {
 
 input[type=submit] {
   background-image: linear-gradient(to right, #000000 0%, #e74c3c 51%, #000000 100%);
-  background-color: #04AA6D;
+  
   font-family: 'Kanit', sans-serif;
   text-transform: uppercase;
   color: white;
@@ -589,9 +595,32 @@ input[type=submit]:hover {
 }
 
 .Info_contact {
-  /* background-color: #582222b7; */
   width: 70%;
   height: auto;
   margin: 10vh auto 10vh auto;
   border-radius: 1%;
 }
+
+/*about*/
+
+.hrr{
+  color: 000;
+ }
+ .centrar{
+   text-align: center;
+ }
+ .logo1{
+    
+    display: block;
+    margin: auto;
+    
+ }
+ .Info_about{
+  /* background-color: #582222b7; */
+  padding-top:10vh ;
+  width: 70%;
+  height: auto;
+  margin: 10vh auto 10vh auto;
+  border-radius: 1%;
+ 
+ }
