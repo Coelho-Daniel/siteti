@@ -383,6 +383,7 @@ background-color: rgba(32, 25, 25, 0.212);
   
 }
 .dropdown1 {
+  top: 12vh;
   position: relative;
   display: inline-block;
   
@@ -473,7 +474,7 @@ font-family: 'Poppins', sans-serif;
 }
 
 .row_armas{
-  padding-top: 52px;
+  padding-top: 10vh;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
