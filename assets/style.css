@@ -480,6 +480,13 @@ font-family: 'Poppins', sans-serif;
   flex-wrap: wrap;
 }
 
+.row_social{
+  padding-top: 10vh;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  border-radius: 2;
+}
 
 /* Mecanicas valorant */
 .infoh1,.infoh2,.infop{

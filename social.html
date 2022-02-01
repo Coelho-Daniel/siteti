@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" href="BANNER/valico.ico">
+  <link rel="stylesheet" href="assets/style.css">
+  <title>VALORANT</title>
+</head>
+
+<body>
+
+  <nav class="topnav" id="myTopnav">
+    <a href="index.html" class="logo" data-testid="riotbar-header-themeLogo-desktop" data-interaction-id="riotbar_app-switcher_theme-logo"><svg xmlns="http://www.w3.org/2000/svg" fill="none" height="25" viewBox="0 0 100 100" width="25"><path d="M99.25 48.66V10.28c0-.59-.75-.86-1.12-.39l-41.92 52.4a.627.627 0 00.49 1.02h30.29c.82 0 1.59-.37 2.1-1.01l9.57-11.96c.38-.48.59-1.07.59-1.68zM1.17 50.34L32.66 89.7c.51.64 1.28 1.01 2.1 1.01h30.29c.53 0 .82-.61.49-1.02L1.7 9.89c-.37-.46-1.12-.2-1.12.39v38.38c0 .61.21 1.2.59 1.68z" fill="#fff"></path></svg></a>
+    <a href="index.html" class="Logo active">Valorant</a>
+    <div class="dropdown">
+      <button class="dropbtn ">Informações do jogo
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="agentes.html"class="pop">Agents</a>
+        <a href="mapas.html"class="pop">Mapas</a>
+        <a href="arsenal.html"class="pop">Armamento</a>
+      </div>
+    </div>
+    <a href="informacoes_jogo.html" class=" active">Mecanica do jogo</a>
+    <a href="social.html" class=" active">Social</a>
+    <a href="contact_page.html" class="active">Contact</a>
+    <a href="about.html" class="active">About</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </nav>
+  <section class="margem">
+
+    <div class="row_social">
+      <a href="https://www.instagram.com/coelho__vb/">
+        <div class="card_img">
+          <img src="Galeria/insta.jpeg" class="small_img">
+          <div class="middle">
+              <div class="text">Instagram</div>
+            </div>         
+      </div>
+    </a>
+    <a href="https://www.instagram.com/coelho__vb/">
+      <div class="card_img">
+        <img src="Galeria/twiter.png" class="small_img">
+        <div class="middle">
+            <div class="text">Twiter</div>
+          </div>         
+    </div>
+    </a>
+    </div>
+    <br> <br>  <br> <br>
+
+  </section>
+
+
+
+  <!--resposive-->
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+</body>
+
+</html>
